@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portbuilder - Contact Us</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <header class="header">
+        <a href="index.html" class="logo">Portbuilder</a>
+        <nav class="nav-links">
+            <a href="index.html#features">Features</a>
+            <a href="about.html">About Us</a>
+            <a href="contact.html">Contact</a>
+        </nav>
+        <a href="builder.html" class="btn-primary">Get Started</a>
+    </header>
+
+    <main>
+        <section class="contact-section">
+            <div class="contact-form-container fade-in-up">
+                <h2>Get in Touch</h2>
+                <p>Reach out to us for support, inquiries, or feedback.</p>
+                <form class="contact-form">
+                    <div class="form-group">
+                        <label for="name">Name</label>
+                        <input type="text" id="name" placeholder="Enter your name">
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" placeholder="Enter your email">
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Message</label>
+                        <textarea id="message" placeholder="Type your message"></textarea>
+                    </div>
+                    <div class="checkbox-group">
+                        <input type="checkbox" id="terms">
+                        <label for="terms">I accept the terms</label>
+                    </div>
+                    <button type="submit" class="btn-primary submit-btn">Submit</button>
+                </form>
+            </div>
+            <div class="map-container fade-in-up">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3153.255955685419!2d-122.40428588468165!3d37.78849767975854!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x808580875c74384d%3A0x6a05e2671c668748!2s123%20Market%20St%2C%20San%20Francisco%2C%20CA%2094105%2C%20USA!5e0!3m2!1sen!2sin!4v1628795551323!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="column">
+                <h4>Explore</h4>
+                <a href="index.html#features">Features</a>
+                <a href="about.html">About Us</a>
+            </div>
+            <div class="column">
+                <h4>Resources</h4>
+                <a href="#">Blog</a>
+                <a href="#">Support</a>
+            </div>
+            <div class="column">
+                <h4>Connect</h4>
+                <a href="contact.html">Contact Us</a>
+                <a href="#">FAQ</a>
+            </div>
+            <div class="column">
+                <h4>Stay Updated</h4>
+                <p>Subscribe to our newsletter for the latest news and updates.</p>
+                <form class="subscribe-form">
+                    <input type="email" placeholder="Enter your email">
+                    <button type="submit">Subscribe</button>
+                </form>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
